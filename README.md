@@ -42,6 +42,20 @@ Data Scientist / ML Engineer с фокусом на NLP, Large Language Models (
 
 ---
 
+### ⚙️ RAG-агент на FastAPI с гибридным поиском
+
+`Python 3.11` · `FastAPI` · `LangGraph` · `Qdrant` · `BM25` · `RRF` · `Jina Reranker` · `Streamlit` · `Docker`
+
+🔗 [github.com/Markusboy12/RAG_fastapi](https://github.com/Markusboy12/RAG_fastapi)
+
+- Разработал RAG-систему с FastAPI backend и Streamlit UI: переписывание запросов через LLM, гибридный retrieval (векторный поиск Qdrant + BM25), объединение результатов Reciprocal Rank Fusion (RRF) и reranking.
+- Реализовал отказоустойчивые fallback-цепочки для LLM, embeddings, reranker и генерации ответа; при недоступности внешних провайдеров система сохраняет возможность отвечать офлайн.
+- Добавил кэширование ответов (in-memory или Redis/Upstash), CLI-индексацию документов, API-документацию OpenAPI/Swagger и Docker Compose для запуска сервисов.
+- Реализовал оценку качества через Recall@K, MRR, nDCG@K, faithfulness и answer relevancy; тесты проекта покрывают retrieval, fusion, pipeline и извлечение документов.
+- **Результат на демонстрационном корпусе:** Recall@5, MRR и nDCG@5 — 1.0; значения получены на небольшом корпусе из 3 чанков и 8 запросов и не являются оценкой качества на реальных данных.
+
+---
+
 ### 🌍 Адаптация LLM для татарского языка (Low-Resource NLP)
 `DeepSeek` · `Qwen2.5` · `Hugging Face`
 🔗 [huggingface.co/LadiesMan69](https://huggingface.co/LadiesMan69)
