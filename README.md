@@ -1,11 +1,10 @@
-# Марк А. Рахманов
+# Марк А. Рахманов · [English](README_EN.md)
 
 **Data Scientist / ML Engineer — NLP, LLM, Generative AI**
 
 Москва / Подмосковье · удалённо, гибрид или офис
 
 [![Email](https://img.shields.io/badge/Email-markrahmanov958@gmail.com-blue?style=flat-square&logo=gmail)](mailto:markrahmanov958@gmail.com)
-[![Phone](https://img.shields.io/badge/Phone-+7%20(916)%20685--24--34-green?style=flat-square&logo=whatsapp)](tel:+79166852434)
 [![GitHub](https://img.shields.io/badge/GitHub-Markusboy12-black?style=flat-square&logo=github)](https://github.com/Markusboy12)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-LadiesMan69-yellow?style=flat-square)](https://huggingface.co/LadiesMan69)
 
